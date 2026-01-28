@@ -1,0 +1,105 @@
+VScode View메뉴 -> Command Palette
+ㄴconfigure display language를 검색하고 엔터를 눌러 선택한다.
+   간단하게 cdl이라고 검색해도 된다.
+   en선택/ko선택 
+ 
+VScode File메뉴 -> Auto Save체크 권장
+
+
+https://www.python.org/
+https://code.visualstudio.com/download
+https://www.anaconda.com/download/success
+
+https://www.ultralytics.com/
+https://streamlit.io/
+https://www.aihub.or.kr/
+https://kosis.kr/index/index.do
+https://platform.openai.com  ===>>>가입권장  
+
+https://numpy.org/
+https://pandas.pydata.org/
+https://matplotlib.org/
+https://scikit-learn.org/stable/
+https://pytorch.org/
+https://www.tensorflow.org/guide?hl=ko
+https://plotly.com/
+https://seaborn.pydata.org/
+https://python-visualization.github.io/folium/latest/index.html
+https://www.selenium.dev/documentation/
+https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+ 
+https://fastapi.tiangolo.com/
+
+https://www.lipsum.com/
+https://archive.ics.uci.edu/
+https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/HG7NV7
+
+https://developers.kakao.com/  ===>>> 국내 카카오 개발자사이트
+https://www.ncloud.com	       ===>>> 국내 네이버 개발자사이트
+
+https://www.data.go.kr/index.do
+https://www.thinkcontest.com
+https://www.clipartkorea.co.kr/  
+
+https://www.lipsum.com/
+https://www.w3schools.com/
+https://www.oracle.com/
+
+#참고 vc++
+https://visualstudio.microsoft.com/ko/visual-cpp-build-tools/
+
+py -m venv 가상환경 이름(특별한 경우가 아니라면 그냥 venv라 적음)
+ex) py -m venv venv
+ex) py -m venv testai
+
+pip freeze > install.txt
+pip freeze > requirements.txt
+pip list
+
+pip install -r install.txt
+pip install -r requirements.txt
+#------------------------------------------------------------------------------------------------
+
+
+# 참고 아나콘다 이미 실행중 에러 발생했을때 해결방법
+"there is an instance of anaconda navigator already running".
+
+C:\Windows\system32> tasklist | findstr "pythonw"
+C:\Windows\system32> tasklist | findstr "pythonw"
+pythonw.exe                  12820 Console                    4      9,160 K
+pythonw.exe                  16164 Console                    4     40,872 K
+
+
+C:\Windows\system32> taskkill  /f /pid 12820
+C:\Windows\system32> taskkill  /f /pid 16164
+
+
+ # cv2 라이브러리 설치 참고
+ pip install opencv-python
+ pip install  scikit-learn 
+ pip list   
+
+# 참고 삭제후 재설치하는 방법 명시(실습안하셔도 됩니다)
+ pip uninstall  scikit-learn  
+ pip install scikit-learn==1.0.2
+ pip list 
+
+ pip uninstall  numpy 
+ pip install numpy==1.24.3 
+ pip list
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
